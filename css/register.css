@@ -1,0 +1,78 @@
+
+.form-container {
+    width: 1000px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.register-form label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.register-form input,
+.register-form select,
+.register-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.register-form input:invalid,
+.register-form select:invalid,
+.register-form textarea:invalid {
+    border: 1px solid #3498db;
+    background-color: #fff6f6;
+}
+
+.register-form input:valid,
+.register-form select:valid,
+.register-form textarea:valid {
+    border: 1px solid #2ecc71;
+    background-color: #f6fff8;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    background:#3498db;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #1f6391;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2980b9;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

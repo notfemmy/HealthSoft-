@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffff;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    width: 250px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 8px 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #2980b9;
+}
+table {
+    width: 90%;
+    margin: 0 auto 40px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table th {
+    background:  #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tr:hover {
+    background: #f1f7ff;
+}
+a {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: background 0.3s, color 0.3s;
+}
+a[href*="edit_patient.php"] {
+    background: #27ae60;
+    color: white;
+}
+
+a[href*="edit_patient.php"]:hover {
+    background: #219150;
+}
+a[href*="delete_patient.php"] {
+    background: #e74c3c;
+    color: white;
+}
+
+a[href*="delete_patient.php"]:hover {
+    background: #c0392b;
+}
+td[colspan] {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+    font-style: italic;
+}
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #3498db;
+    transition: 0.3s;
+}
+
+.pagination a:hover {
+    background: #3498db;
+    color: white;
+}
+
+.pagination a.active-page {
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+}
